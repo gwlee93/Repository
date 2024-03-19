@@ -94,3 +94,4 @@ C:\Users\gw.lee\Documents\카카오톡 받은 파일\GrpcService\GrpcService\Grp
 C:\Users\gw.lee\Documents\카카오톡 받은 파일\GrpcService\GrpcService\GrpcService\obj\Debug\net6.0\GrpcService.pdb
 C:\Users\gw.lee\Documents\카카오톡 받은 파일\GrpcService\GrpcService\GrpcService\obj\Debug\net6.0\GrpcService.genruntimeconfig.cache
 C:\Users\gw.lee\Documents\카카오톡 받은 파일\GrpcService\GrpcService\GrpcService\obj\Debug\net6.0\ref\GrpcService.dll
+C:\Users\gw.lee\Documents\카카오톡 받은 파일\GrpcService\GrpcService\GrpcService\obj\Debug\net6.0\GrpcService.sourcelink.json

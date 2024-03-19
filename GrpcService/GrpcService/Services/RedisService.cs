@@ -27,8 +27,13 @@ namespace GrpcService.Services
         {
             var item = _queue.Dequeue();
             _logger.LogInformation(item);
-            await Task.CompletedTask;
-            return item;
+            return await Task.FromResult(item);            
+        }
+        public async Task<string> PopAsync()
+        {
+            var item = _queue.Pop();
+            _logger.LogInformation(item);
+            return await Task.FromResult(item);
         }
     }
 }

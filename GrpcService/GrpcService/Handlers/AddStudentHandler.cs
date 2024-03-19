@@ -20,7 +20,7 @@ namespace GrpcService.Handlers
         {
             var entity = Student.Create("1", "이건우", 32, "Math");            
             await _redisService.EnqueueAsync(entity);
-            var result = await _redisService.DequeueAsync();            
+            var result = await _redisService.PopAsync();            
             if (result is null)
                 return Option<string>.None;
            
