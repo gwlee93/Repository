@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "3H5iuOBLHSD0NpP9V0jPnZyv0Bc3B50zNlkOtqNQuxGkJqRd0/mHoIrlxOby7tRdPQeWOjvHMz1Opzx3QxAmIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kw.lee\\source\\repos\\GrpcService\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw.lee\\.nuget\\packages\\google.protobuf\\3.26.0\\google.protobuf.3.26.0.nupkg.sha512",
+    "C:\\Users\\kw.lee\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'http://package.mirero.co.kr/nuget' 'HTTP' 원본을 사용하여 'restore' 작업을 실행하고 있습니다. 비 HTTPS 액세스는 이후 버전에서 제거됩니다. 'HTTPS' 원본으로 마이그레이션하는 것이 좋습니다."
+    }
+  ]
+}

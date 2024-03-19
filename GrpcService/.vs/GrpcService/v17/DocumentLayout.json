@@ -1,0 +1,323 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D1E6A0-AA7E-4CC3-BBBE-49A02FD8D776}|GrpcClient\\GrpcClient.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D1E6A0-AA7E-4CC3-BBBE-49A02FD8D776}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E23ADC-935A-4BE3-B2B2-75DB7167F190}|Insfrastructure\\Insfrastructure.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\insfrastructure\\student.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D5E23ADC-935A-4BE3-B2B2-75DB7167F190}|Insfrastructure\\Insfrastructure.csproj|solutionrelative:insfrastructure\\student.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\handlers\\addstudenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\handlers\\addstudenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308D28FE-6258-423E-8042-FDA01502016B}|..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\study\\study\\1\uCC28\uC2DC\\workerservice\\redislibrary\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308D28FE-6258-423E-8042-FDA01502016B}|..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\study\\study\\1\uCC28\uC2DC\\workerservice\\redislibrary\\iaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308D28FE-6258-423E-8042-FDA01502016B}|..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\study\\study\\1\uCC28\uC2DC\\workerservice\\redislibrary\\iconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308D28FE-6258-423E-8042-FDA01502016B}|..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\study\\study\\1\uCC28\uC2DC\\workerservice\\redislibrary\\streamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308D28FE-6258-423E-8042-FDA01502016B}|..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\study\\study\\1\uCC28\uC2DC\\workerservice\\redislibrary\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\commands\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\commands\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|c:\\users\\gw.lee\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\grpcservice\\grpcservice\\grpcservice\\grpcservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{787AABC9-91E4-4538-82D3-812E62C99B10}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\grpcservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcClient\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\Program.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcClient\\Program.cs",
+              "RelativeToolTip": "GrpcClient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:14:16.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "RelativeDocumentMoniker": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "RelativeToolTip": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:12:58.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "RelativeDocumentMoniker": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "RelativeToolTip": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:05:39.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddStudentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Handlers\\AddStudentHandler.cs",
+              "RelativeDocumentMoniker": "GrpcService\\Handlers\\AddStudentHandler.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Handlers\\AddStudentHandler.cs",
+              "RelativeToolTip": "GrpcService\\Handlers\\AddStudentHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcService\\Program.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Program.cs",
+              "RelativeToolTip": "GrpcService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "GrpcService\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Entities\\Student.cs",
+              "RelativeToolTip": "GrpcService\\Entities\\Student.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "GrpcService\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Services\\StudentService.cs",
+              "RelativeToolTip": "GrpcService\\Services\\StudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Services\\RedisService.cs",
+              "RelativeDocumentMoniker": "GrpcService\\Services\\RedisService.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Services\\RedisService.cs",
+              "RelativeToolTip": "GrpcService\\Services\\RedisService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "student.proto",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\Insfrastructure\\student.proto",
+              "RelativeDocumentMoniker": "Insfrastructure\\student.proto",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\Insfrastructure\\student.proto",
+              "RelativeToolTip": "Insfrastructure\\student.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-03-19T11:01:26.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StreamConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\StreamConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\StreamConfiguration.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\StreamConfiguration.cs",
+              "RelativeToolTip": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\StreamConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:14:53.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IConfiguration.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IConfiguration.cs",
+              "RelativeToolTip": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:14:54.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAddress.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IAddress.cs",
+              "RelativeDocumentMoniker": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IAddress.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IAddress.cs",
+              "RelativeToolTip": "..\\..\\Study\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\IAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:14:54.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Commands\\AddStudentCommand.cs",
+              "RelativeDocumentMoniker": "GrpcService\\Commands\\AddStudentCommand.cs",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Commands\\AddStudentCommand.cs",
+              "RelativeToolTip": "GrpcService\\Commands\\AddStudentCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\ConnectionFactory.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "ToolTip": "C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\Queue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:01:26.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RedisLibrary.csproj",
+              "DocumentMoniker": "C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj",
+              "ToolTip": "C:\\Users\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\kw.lee\\Desktop\\Study\\1\uCC28\uC2DC\\WorkerService\\RedisLibrary\\RedisLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T11:01:26.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GrpcService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GrpcService\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-19T11:01:26.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GrpcService.csproj",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\GrpcService.csproj",
+              "RelativeDocumentMoniker": "GrpcService\\GrpcService.csproj",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\GrpcService.csproj",
+              "RelativeToolTip": "GrpcService\\GrpcService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T11:01:26.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\appsettings.json",
+              "RelativeDocumentMoniker": "GrpcService\\appsettings.json",
+              "ToolTip": "C:\\Users\\gw.lee\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\GrpcService\\GrpcService\\GrpcService\\appsettings.json",
+              "RelativeToolTip": "GrpcService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-19T11:01:27.163Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
