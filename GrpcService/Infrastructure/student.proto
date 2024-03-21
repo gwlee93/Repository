@@ -1,0 +1,28 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package student;
+
+// The greeting service definition.
+service StudentsGrpc {
+  // Sends a greeting
+  rpc AddStudentInfo (StudentRequest) returns (StudentReply);
+}
+
+message StudentDTO{
+  string studentId = 1;
+  string name = 2;
+  int32 age = 3;
+  string course = 4;
+}
+
+// The request message for GetStudentInfo
+message StudentRequest {
+  StudentDTO student = 1;  
+}
+
+// The response message for GetStudentInfo
+message StudentReply {  
+  StudentDTO student= 1;
+}
