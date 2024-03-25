@@ -1,7 +1,15 @@
 version: '3.4'
 
 services:
+  grpcservice:
+    image: ${DOCKER_REGISTRY-}grpcservice
+    build:
+      context: .
+      dockerfile: GrpcService/Dockerfile       
+    depends_on:
+      - redis
+
   redis:
     image: redis:latest
     ports:
-      - 6379:6379
+      - "6379:6379"

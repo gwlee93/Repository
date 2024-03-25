@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:  
+  backend:
+    build:
+      target: privateCerts
+    env_file:
+      - ./GrpcService/ContainerCerts.env
+    volumes:
+      - ./Cert:/Cert

@@ -1,4 +1,5 @@
-﻿using Grpc.Net.Client;
+﻿using Grpc.Core;
+using Grpc.Net.Client;
 using GrpcService;
 
 namespace GrpcClient
@@ -6,7 +7,7 @@ namespace GrpcClient
     internal class Program
     {
         static async Task Main(string[] args)
-        {
+        {            
             using var channel = GrpcChannel.ForAddress("https://localhost:5001");
             var client = new StudentsGrpc.StudentsGrpcClient(channel);            
     
