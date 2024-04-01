@@ -1,3 +1,4 @@
+using GrpcService.Extensions;
 using GrpcService.Services;
 
 namespace GrpcService
@@ -13,7 +14,7 @@ namespace GrpcService
 
             // Add services to the container.            
             builder.Services.AddGrpc();
-            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(Program).Assembly));
+            builder.Services.AddMediatR();
             builder.Services.AddScoped<RedisService>();
             var app = builder.Build();
 

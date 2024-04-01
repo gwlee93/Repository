@@ -11,36 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisLibrary", "RedisLibrary\RedisLibrary.csproj", "{C7736459-CC8E-4698-95BC-D82D9B808FAC}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{411D65F2-1FDA-4090-A058-22EF667DC447}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{0EAB04F6-9EC2-455C-9E17-56356D424589}"
-	ProjectSection(SolutionItems) = preProject
-		Cert\backend.cer = Cert\backend.cer
-		Cert\backend.cnf = Cert\backend.cnf
-		Cert\backend.csr = Cert\backend.csr
-		Cert\backend.pfx = Cert\backend.pfx
-		Cert\backend.private-key.pem = Cert\backend.private-key.pem
-		Cert\backend.public-key.pem = Cert\backend.public-key.pem
-		Cert\Clean-Certs.ps1 = Cert\Clean-Certs.ps1
-		Cert\ContainerCerts.env.template = Cert\ContainerCerts.env.template
-		ContainerCerts.props = ContainerCerts.props
-		Cert\Create-Certs.ps1 = Cert\Create-Certs.ps1
-		Cert\CreateCerts.sh = Cert\CreateCerts.sh
-		Cert\frontend.cer = Cert\frontend.cer
-		Cert\frontend.cnf = Cert\frontend.cnf
-		Cert\frontend.csr = Cert\frontend.csr
-		Cert\frontend.pfx = Cert\frontend.pfx
-		Cert\frontend.private-key.pem = Cert\frontend.private-key.pem
-		Cert\frontend.public-key.pem = Cert\frontend.public-key.pem
-		Cert\Password.txt = Cert\Password.txt
-		Cert\test-ca.cert.pem = Cert\test-ca.cert.pem
-		Cert\test-ca.cert.srl = Cert\test-ca.cert.srl
-		Cert\test-ca.cnf = Cert\test-ca.cnf
-		Cert\test-ca.crt = Cert\test-ca.crt
-		Cert\test-ca.pfx = Cert\test-ca.pfx
-		Cert\test-ca.private-key.pem = Cert\test-ca.private-key.pem
-		Cert\test-ca.public-key.pem = Cert\test-ca.public-key.pem
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "WorkerService\WorkerService.csproj", "{460262D3-C3D1-445E-89F9-5FB53FAF1271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,10 +35,10 @@ Global
 		{C7736459-CC8E-4698-95BC-D82D9B808FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7736459-CC8E-4698-95BC-D82D9B808FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7736459-CC8E-4698-95BC-D82D9B808FAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{411D65F2-1FDA-4090-A058-22EF667DC447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{411D65F2-1FDA-4090-A058-22EF667DC447}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{411D65F2-1FDA-4090-A058-22EF667DC447}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{411D65F2-1FDA-4090-A058-22EF667DC447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460262D3-C3D1-445E-89F9-5FB53FAF1271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460262D3-C3D1-445E-89F9-5FB53FAF1271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460262D3-C3D1-445E-89F9-5FB53FAF1271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460262D3-C3D1-445E-89F9-5FB53FAF1271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,9 +3,9 @@
     "Name": "\uC0C8 \uD504\uB85C\uD544",
     "Projects": [
       {
-        "Name": "docker-compose.dcproj",
+        "Name": "WorkerService\\WorkerService.csproj",
         "Action": "Start",
-        "DebugTarget": "Docker Compose"
+        "DebugTarget": "WorkerService"
       },
       {
         "Name": "GrpcClient\\GrpcClient.csproj",
