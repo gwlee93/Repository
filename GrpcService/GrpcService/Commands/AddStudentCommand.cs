@@ -1,12 +1,13 @@
-﻿using LanguageExt;
+﻿using DtoStudent = Api.Students.Student;
+using LanguageExt;
 using MediatR;
 
 namespace GrpcService.Commands
 {
-    public record AddStudentCommand : IRequest<Option<StudentDTO>>
+    public record AddStudentCommand : IRequest<Option<DtoStudent>>
     {
-        public StudentDTO Student { get; }
-        public AddStudentCommand(StudentDTO student) => Student = student;
+        public DtoStudent Student { get; }
+        public AddStudentCommand(DtoStudent student) => Student = student;
     }
 }
 

@@ -3,11 +3,11 @@ using GrpcService.Entities;
 using GrpcService.Services;
 using LanguageExt;
 using MediatR;
-using StudentDTO = GrpcService.StudentDTO;
+using DtoStudent = Api.Students.Student;
 
 namespace GrpcService.Handlers
 {
-    public class AddStudentHandler : IRequestHandler<AddStudentCommand, Option<StudentDTO>>
+    public class AddStudentHandler : IRequestHandler<AddStudentCommand, Option<DtoStudent>>
     {
 
         private readonly RedisService _redisService;
@@ -16,7 +16,7 @@ namespace GrpcService.Handlers
             _redisService = redisService;
         }
 
-        public async Task<Option<StudentDTO>> Handle(AddStudentCommand request, CancellationToken cancellationToken)
+        public async Task<Option<DtoStudent>> Handle(AddStudentCommand request, CancellationToken cancellationToken)
         {            
             var entity = new Student(studentId : request.Student.StudentId, 
                                           name : request.Student.Name,
@@ -25,9 +25,9 @@ namespace GrpcService.Handlers
             await _redisService.EnqueueAsync(entity);
             
             if (entity is null)
-                return Option<StudentDTO>.None;
+                return Option<DtoStudent>.None;
            
-            return Option<StudentDTO>.Some(new StudentDTO { StudentId = entity.StudentId,
+            return Option<DtoStudent>.Some(new DtoStudent { StudentId = entity.StudentId,
                                                             Name = entity.Name,
                                                             Age = entity.Age,
                                                             Course = entity.Course});

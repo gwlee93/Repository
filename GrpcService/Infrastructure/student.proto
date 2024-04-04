@@ -1,6 +1,6 @@
 ﻿syntax = "proto3";
 
-option csharp_namespace = "GrpcService";
+option csharp_namespace = "Api.Students";
 
 package student;
 
@@ -10,7 +10,7 @@ service StudentsGrpc {
   rpc AddStudentInfo (StudentRequest) returns (StudentReply);
 }
 
-message StudentDTO{
+message Student{
   string studentId = 1;
   string name = 2;
   int32 age = 3;
@@ -19,10 +19,10 @@ message StudentDTO{
 
 // The request message for GetStudentInfo
 message StudentRequest {
-  StudentDTO student = 1;  
+  Student student = 1;  
 }
 
 // The response message for GetStudentInfo
 message StudentReply {  
-  StudentDTO student= 1;
+  Student student= 1;
 }

@@ -22,6 +22,7 @@ namespace WorkerService
             while (!stoppingToken.IsCancellationRequested)
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+                _queue.Dequeue();
                 await Task.Delay(5000, stoppingToken);
             }
         }

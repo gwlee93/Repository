@@ -1,7 +1,6 @@
-﻿using Grpc.Core;
+﻿using Api.Students;
 using Grpc.Net.Client;
-using GrpcService;
-
+using DtoStudent = Api.Students.Student;
 namespace GrpcClient
 {
     internal class Program
@@ -13,7 +12,7 @@ namespace GrpcClient
     
             var studentReply = await client.AddStudentInfoAsync(new StudentRequest
             {
-                Student = new StudentDTO
+                Student = new DtoStudent
                 {
                     StudentId = "1",
                     Age = 12,

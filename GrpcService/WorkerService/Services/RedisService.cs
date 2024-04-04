@@ -1,5 +1,6 @@
-﻿using WorkerService.Entities;
+﻿using EntityStudent = Domain.Entities.Student;
 using RedisLibrary;
+using Domain.Entities;
 
 namespace WorkerService.Services
 {
@@ -16,7 +17,7 @@ namespace WorkerService.Services
             IConnectionFactory connectionFactory = new ConnectionFactory(configuration);
             _queue = new Queue(connectionFactory);
         }
-        public async Task EnqueueAsync(Student student)
+        public async Task EnqueueAsync(EntityStudent student)
         {
              _queue.Enqueue(student.StudentId);
             _logger.LogInformation(student.StudentId);

@@ -1,7 +1,8 @@
-﻿using Grpc.Core;
+﻿using Api.Students;
+using Grpc.Core;
 using GrpcService.Commands;
 using MediatR;
-
+using DtoStudent = Api.Students.Student;
 namespace GrpcService.Services
 {
     public class StudentService : StudentsGrpc.StudentsGrpcBase
@@ -17,7 +18,7 @@ namespace GrpcService.Services
         {
             return await _mediator.Send(new AddStudentCommand(request.Student))
                                   .Match(Some: value => new StudentReply { Student = value },
-                                         None: () => new StudentReply { Student = new StudentDTO() });
+                                         None: () => new StudentReply { Student = new DtoStudent() });
         }
     }
 }

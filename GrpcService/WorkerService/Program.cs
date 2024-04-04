@@ -1,6 +1,5 @@
-using Microsoft.AspNetCore.Hosting;
-using WorkerService.Services;
 using WorkerService.Extensions;
+using Microsoft.AspNetCore.Builder;
 
 namespace WorkerService
 {
@@ -8,20 +7,20 @@ namespace WorkerService
     {
         public static void Main(string[] args)
         {
-            IHost host = Host.CreateDefaultBuilder(args)
-                  .ConfigureServices((hostContext, services) =>
-                  {
-                      services.AddHostedService<Worker>();                                            
-                      services.AddScoped<RedisService>();
-                      services.AddMediatR();
-                  })
-                  .ConfigureWebHostDefaults(webBuilder =>
-                  {
-                      webBuilder.UseStartup<Startup>();
-                  })
-                .Build();
+            var builder = WebApplication.CreateBuilder(args);
 
-            host.Run();
+            builder.Services.AddGrpc();
+            builder.Services.AddMapper();
+            builder.Services.AddMediatR();
+            builder.Services.AddWorkerService();
+            builder.Services.AddPersistence();            
+
+            var app = builder.Build();
+
+            app.AddControllers();
+            app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+            app.Run();
+    
         }
     }
 }
