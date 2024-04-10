@@ -1,4 +1,4 @@
-using RedisLibrary;
+using Application;
 
 namespace WorkerService
 {
@@ -7,23 +7,20 @@ namespace WorkerService
         private readonly ILogger<Worker> _logger;
         private readonly IQueue _queue;
 
-        public Worker(ILogger<Worker> logger)
+        public Worker(ILogger<Worker> logger, IQueue queue)
         {
             _logger = logger;
-
-            IAddress address = new Address("localhost", "6379");
-            RedisLibrary.IConfiguration configuration = new Configuration(address, "test-queue");
-            IConnectionFactory connectionFactory = new ConnectionFactory(configuration);
-            _queue = new Queue(connectionFactory);
+            _queue = queue;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            var result = _queue.DequeueAsync(stoppingToken);
             while (!stoppingToken.IsCancellationRequested)
-            {
+            {                
+                _logger.LogInformation(result.ToString());
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                _queue.Dequeue();
-                await Task.Delay(5000, stoppingToken);
+                await Task.Delay(10000, stoppingToken);
             }
         }
     }

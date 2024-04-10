@@ -30,7 +30,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.Protos.csproj" />
-    <ProjectReference Include="..\RedisLibrary\RedisLibrary.csproj" />
   </ItemGroup>
 
 </Project>
