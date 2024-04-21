@@ -89,11 +89,11 @@ namespace Infrastructure.Data.MessageBus.RabbitMQ
             // 메시지가 RabbitMQ에 의해 수신되었는지 확인 (5초동안 대기)
             bool isConfirmed = _model.WaitForConfirms(new TimeSpan(0, 0, 5));
 
-            if (!isConfirmed)
+            if (isConfirmed == false)
             {
                 throw new Exception("Message could not be confirmed.");
             }
-
+            
             return await Task.FromResult(0L);
         }
     }

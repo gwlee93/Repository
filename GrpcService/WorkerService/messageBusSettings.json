@@ -1,0 +1,9 @@
+{
+  "MessageBusConfiguration": {
+    "IP": "localhost",
+    "Port": 5672,
+    "Username": "lkw",
+    "Password": "1234",
+    "QueueName": "test-queue"
+  }
+} 

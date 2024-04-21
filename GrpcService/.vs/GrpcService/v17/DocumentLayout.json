@@ -3,72 +3,48 @@
   "WorkspaceRootPath": "C:\\Workspace\\Repository\\GrpcService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\rabbitmq\\rabbitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\rabbitmq\\rabbitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\messagebus\\configuration\\iconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\messagebus\\configuration\\iconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\extensions\\persistenceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\extensions\\persistenceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\messagebus\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\messagebus\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\redis\\redisconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\redis\\redisconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\rabbitmq\\rabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\rabbitmq\\rabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\extensions\\persistenceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\extensions\\persistenceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\messagebussettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\messagebussettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\rabbitmq\\rabbitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\rabbitmq\\rabbitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\extensions\\optionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\extensions\\optionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\redis\\redisqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\redis\\redisqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\middlewares\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\middlewares\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\middlewares\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\middlewares\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\handlers\\addstudenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\handlers\\addstudenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D1E6A0-AA7E-4CC3-BBBE-49A02FD8D776}|GrpcClient\\GrpcClient.csproj|c:\\workspace\\repository\\grpcservice\\grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D1E6A0-AA7E-4CC3-BBBE-49A02FD8D776}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\rabbitmq\\rabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\rabbitmq\\rabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\extensions\\controllerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\extensions\\controllerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\messagebus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\messagebus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\messagebus\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\messagebus\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\redis\\redisconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\redis\\redisconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\messagebus\\address\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,44 +55,16 @@
       "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\messagebus\\address\\iaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|c:\\workspace\\repository\\grpcservice\\domain\\messagebus\\configuration\\iconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F3E15-8D8C-49E3-8806-70D323185E2D}|Domain\\Domain.csproj|solutionrelative:domain\\messagebus\\configuration\\iconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.data\\messagebus\\options\\optional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC15DC9-0873-4DA6-A471-72CD08C166AD}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\messagebus\\options\\optional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC4F7ABB-579B-4DBA-A612-E89CFC0B07F2}|Application\\Application.csproj|c:\\workspace\\repository\\grpcservice\\application\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC4F7ABB-579B-4DBA-A612-E89CFC0B07F2}|Application\\Application.csproj|solutionrelative:application\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC4F7ABB-579B-4DBA-A612-E89CFC0B07F2}|Application\\Application.csproj|c:\\workspace\\repository\\grpcservice\\application\\imapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC4F7ABB-579B-4DBA-A612-E89CFC0B07F2}|Application\\Application.csproj|solutionrelative:application\\imapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4B71F71-9874-4204-9542-2548A09F9193}|Infrastructure.Mappers\\Infrastructure.Mappers.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.mappers\\automappers\\automapperdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4B71F71-9874-4204-9542-2548A09F9193}|Infrastructure.Mappers\\Infrastructure.Mappers.csproj|solutionrelative:infrastructure.mappers\\automappers\\automapperdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4B71F71-9874-4204-9542-2548A09F9193}|Infrastructure.Mappers\\Infrastructure.Mappers.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.mappers\\automappers\\automapperextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4B71F71-9874-4204-9542-2548A09F9193}|Infrastructure.Mappers\\Infrastructure.Mappers.csproj|solutionrelative:infrastructure.mappers\\automappers\\automapperextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4B71F71-9874-4204-9542-2548A09F9193}|Infrastructure.Mappers\\Infrastructure.Mappers.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure.mappers\\automappers\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4B71F71-9874-4204-9542-2548A09F9193}|Infrastructure.Mappers\\Infrastructure.Mappers.csproj|solutionrelative:infrastructure.mappers\\automappers\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\extensions\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\extensions\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FD6492-7556-46C4-BD17-1C2D88B0B6A3}|Infrastructure\\Infrastructure.Protos.csproj|c:\\workspace\\repository\\grpcservice\\infrastructure\\student.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{F2FD6492-7556-46C4-BD17-1C2D88B0B6A3}|Infrastructure\\Infrastructure.Protos.csproj|solutionrelative:infrastructure\\student.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|c:\\workspace\\repository\\grpcservice\\workerservice\\commands\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460262D3-C3D1-445E-89F9-5FB53FAF1271}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\commands\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC4F7ABB-579B-4DBA-A612-E89CFC0B07F2}|Application\\Application.csproj|c:\\workspace\\repository\\grpcservice\\application\\ioptional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4F7ABB-579B-4DBA-A612-E89CFC0B07F2}|Application\\Application.csproj|solutionrelative:application\\ioptional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,202 +78,184 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoggingBehavior.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\MiddleWares\\LoggingBehavior.cs",
-              "RelativeDocumentMoniker": "WorkerService\\MiddleWares\\LoggingBehavior.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\MiddleWares\\LoggingBehavior.cs",
-              "RelativeToolTip": "WorkerService\\MiddleWares\\LoggingBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:47:26.77Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ValidationBehavior.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\MiddleWares\\ValidationBehavior.cs",
-              "RelativeDocumentMoniker": "WorkerService\\MiddleWares\\ValidationBehavior.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\MiddleWares\\ValidationBehavior.cs",
-              "RelativeToolTip": "WorkerService\\MiddleWares\\ValidationBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T12:57:28.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddStudentHandler.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Handlers\\AddStudentHandler.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Handlers\\AddStudentHandler.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Handlers\\AddStudentHandler.cs",
-              "RelativeToolTip": "WorkerService\\Handlers\\AddStudentHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:29:59.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Worker.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Worker.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Worker.cs",
-              "RelativeToolTip": "WorkerService\\Worker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:32:04.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Program.cs",
               "RelativeDocumentMoniker": "WorkerService\\Program.cs",
               "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Program.cs",
               "RelativeToolTip": "WorkerService\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAD4vw8AAAArAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAewBYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:32:22.735Z",
+              "WhenOpened": "2024-04-21T12:04:00.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersistenceExtension.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\PersistenceExtension.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Extensions\\PersistenceExtension.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\PersistenceExtension.cs",
-              "RelativeToolTip": "WorkerService\\Extensions\\PersistenceExtension.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvw4AAAAyAAAA",
+              "DocumentIndex": 7,
+              "Title": "OptionExtension.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\OptionExtension.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Extensions\\OptionExtension.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\OptionExtension.cs",
+              "RelativeToolTip": "WorkerService\\Extensions\\OptionExtension.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T00:49:00.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Dockerfile",
-              "RelativeDocumentMoniker": "WorkerService\\Dockerfile",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Dockerfile",
-              "RelativeToolTip": "WorkerService\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-10T12:19:38.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RabbitMQQueue.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
-              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T10:41:29.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RedisQueue.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
-              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T14:39:29.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RedisConnection.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
-              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T14:38:51.253Z",
+              "WhenOpened": "2024-04-21T12:17:16.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\GrpcClient\\Program.cs",
-              "RelativeDocumentMoniker": "GrpcClient\\Program.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\GrpcClient\\Program.cs",
-              "RelativeToolTip": "GrpcClient\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA8AAAARAAAA",
+              "Title": "RedisConnection.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
+              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\Redis\\RedisConnection.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:30:54.502Z",
+              "WhenOpened": "2024-04-21T12:33:10.864Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Worker.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Worker.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Worker.cs",
+              "RelativeToolTip": "WorkerService\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T12:20:00.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "messageBusSettings.json",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\messageBusSettings.json",
+              "RelativeDocumentMoniker": "WorkerService\\messageBusSettings.json",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\messageBusSettings.json",
+              "RelativeToolTip": "WorkerService\\messageBusSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-21T12:43:14.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RabbitMQConnection.cs",
               "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQConnection.cs",
               "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQConnection.cs",
               "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQConnection.cs",
               "RelativeToolTip": "Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQConnection.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBgAAAANAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAADgvx8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T10:55:09.428Z",
+              "WhenOpened": "2024-04-21T12:32:51.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RabbitMQQueue.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
+              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\RabbitMQ\\RabbitMQQueue.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIAwwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T12:32:50.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IConfiguration.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\IConfiguration.cs",
+              "RelativeDocumentMoniker": "Domain\\MessageBus\\Configuration\\IConfiguration.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\IConfiguration.cs",
+              "RelativeToolTip": "Domain\\MessageBus\\Configuration\\IConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T12:43:59.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\Configuration.cs",
+              "RelativeDocumentMoniker": "Domain\\MessageBus\\Configuration\\Configuration.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\Configuration.cs",
+              "RelativeToolTip": "Domain\\MessageBus\\Configuration\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T12:41:35.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersistenceExtension.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\PersistenceExtension.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Extensions\\PersistenceExtension.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\PersistenceExtension.cs",
+              "RelativeToolTip": "WorkerService\\Extensions\\PersistenceExtension.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T12:04:12.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\Address.cs",
+              "RelativeDocumentMoniker": "Domain\\MessageBus\\Address\\Address.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\Address.cs",
+              "RelativeToolTip": "Domain\\MessageBus\\Address\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:08:01.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Student.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\Entities\\Student.cs",
-              "RelativeToolTip": "Domain\\Entities\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Title": "RedisQueue.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
+              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\Redis\\RedisQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:11:05.434Z",
+              "WhenOpened": "2024-04-21T13:17:03.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IConnection.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Connection\\IConnection.cs",
-              "RelativeDocumentMoniker": "Domain\\MessageBus\\Connection\\IConnection.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Connection\\IConnection.cs",
-              "RelativeToolTip": "Domain\\MessageBus\\Connection\\IConnection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAIAAAA",
+              "DocumentIndex": 12,
+              "Title": "IAddress.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\IAddress.cs",
+              "RelativeDocumentMoniker": "Domain\\MessageBus\\Address\\IAddress.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\IAddress.cs",
+              "RelativeToolTip": "Domain\\MessageBus\\Address\\IAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:34:16.996Z",
+              "WhenOpened": "2024-04-21T12:56:33.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ControllerExtension.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\ControllerExtension.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Extensions\\ControllerExtension.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\ControllerExtension.cs",
-              "RelativeToolTip": "WorkerService\\Extensions\\ControllerExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Title": "Optional.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Options\\Optional.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\MessageBus\\Options\\Optional.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Data\\MessageBus\\Options\\Optional.cs",
+              "RelativeToolTip": "Infrastructure.Data\\MessageBus\\Options\\Optional.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAUwDIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:46:32.36Z",
+              "WhenOpened": "2024-04-21T12:22:17.875Z",
               "EditorCaption": ""
             },
             {
@@ -338,176 +268,20 @@
               "RelativeToolTip": "WorkerService\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-10T12:02:20.164Z",
+              "WhenOpened": "2024-04-21T12:24:04.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\Address.cs",
-              "RelativeDocumentMoniker": "Domain\\MessageBus\\Address\\Address.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\Address.cs",
-              "RelativeToolTip": "Domain\\MessageBus\\Address\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAIAAAA",
+              "DocumentIndex": 15,
+              "Title": "IOptional.cs",
+              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Application\\IOptional.cs",
+              "RelativeDocumentMoniker": "Application\\IOptional.cs",
+              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Application\\IOptional.cs",
+              "RelativeToolTip": "Application\\IOptional.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:50:00.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IAddress.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\IAddress.cs",
-              "RelativeDocumentMoniker": "Domain\\MessageBus\\Address\\IAddress.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Address\\IAddress.cs",
-              "RelativeToolTip": "Domain\\MessageBus\\Address\\IAddress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:53:30.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\Configuration.cs",
-              "RelativeDocumentMoniker": "Domain\\MessageBus\\Configuration\\Configuration.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\Configuration.cs",
-              "RelativeToolTip": "Domain\\MessageBus\\Configuration\\Configuration.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA8wBUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:50:45.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IConfiguration.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\IConfiguration.cs",
-              "RelativeDocumentMoniker": "Domain\\MessageBus\\Configuration\\IConfiguration.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Domain\\MessageBus\\Configuration\\IConfiguration.cs",
-              "RelativeToolTip": "Domain\\MessageBus\\Configuration\\IConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:56:03.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Services\\StudentService.cs",
-              "RelativeToolTip": "WorkerService\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAewA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:29:52.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IQueue.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Application\\IQueue.cs",
-              "RelativeDocumentMoniker": "Application\\IQueue.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Application\\IQueue.cs",
-              "RelativeToolTip": "Application\\IQueue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T14:07:57.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IMapper.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Application\\IMapper.cs",
-              "RelativeDocumentMoniker": "Application\\IMapper.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Application\\IMapper.cs",
-              "RelativeToolTip": "Application\\IMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:17:16.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MapperExtensions.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\MapperExtensions.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Extensions\\MapperExtensions.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Extensions\\MapperExtensions.cs",
-              "RelativeToolTip": "WorkerService\\Extensions\\MapperExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:37:02.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AutoMapperExtension.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Mappers\\AutoMappers\\AutoMapperExtension.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Mappers\\AutoMappers\\AutoMapperExtension.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Mappers\\AutoMappers\\AutoMapperExtension.cs",
-              "RelativeToolTip": "Infrastructure.Mappers\\AutoMappers\\AutoMapperExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:35:16.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AddStudentCommand.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Commands\\AddStudentCommand.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Commands\\AddStudentCommand.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\WorkerService\\Commands\\AddStudentCommand.cs",
-              "RelativeToolTip": "WorkerService\\Commands\\AddStudentCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:27:35.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AutoMapperDI.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Mappers\\AutoMappers\\AutoMapperDI.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Mappers\\AutoMappers\\AutoMapperDI.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Mappers\\AutoMappers\\AutoMapperDI.cs",
-              "RelativeToolTip": "Infrastructure.Mappers\\AutoMappers\\AutoMapperDI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:35:50.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "student.proto",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure\\student.proto",
-              "RelativeDocumentMoniker": "Infrastructure\\student.proto",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure\\student.proto",
-              "RelativeToolTip": "Infrastructure\\student.proto",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2024-04-04T12:17:38.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "StudentConfiguration.cs",
-              "DocumentMoniker": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Mappers\\AutoMappers\\Configurations\\StudentConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Mappers\\AutoMappers\\Configurations\\StudentConfiguration.cs",
-              "ToolTip": "C:\\Workspace\\Repository\\GrpcService\\Infrastructure.Mappers\\AutoMappers\\Configurations\\StudentConfiguration.cs",
-              "RelativeToolTip": "Infrastructure.Mappers\\AutoMappers\\Configurations\\StudentConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:11:26.579Z",
+              "WhenOpened": "2024-04-21T12:18:57.593Z",
               "EditorCaption": ""
             }
           ]

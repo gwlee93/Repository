@@ -9,11 +9,18 @@ namespace WorkerService
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Configuration Ãß°¡
+            var configuration = new ConfigurationBuilder()
+            .AddJsonFile("messageBusSettings.json", false, true)
+            .AddEnvironmentVariables()
+            .Build();
+
             builder.Services.AddGrpc();
             builder.Services.AddMapper();
             builder.Services.AddMediatR();
             builder.Services.AddWorkerService();
-            builder.Services.AddPersistence();            
+            builder.Services.AddOptionExtension(configuration);
+            builder.Services.AddPersistence(configuration);            
 
             var app = builder.Build();
 
