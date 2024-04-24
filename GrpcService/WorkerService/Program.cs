@@ -10,7 +10,7 @@ namespace WorkerService
             var builder = WebApplication.CreateBuilder(args);
 
             // Configuration Ãß°¡
-            var configuration = new ConfigurationBuilder()
+            var configuration = new ConfigurationManager()
             .AddJsonFile("messageBusSettings.json", false, true)
             .AddEnvironmentVariables()
             .Build();
@@ -20,7 +20,8 @@ namespace WorkerService
             builder.Services.AddMediatR();
             builder.Services.AddWorkerService();
             builder.Services.AddOptionExtension(configuration);
-            builder.Services.AddPersistence(configuration);            
+            builder.Services.AddMessageBus(configuration);
+            builder.Services.AddEFCore(configuration);
 
             var app = builder.Build();
 

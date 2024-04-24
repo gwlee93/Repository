@@ -1,34 +1,38 @@
-﻿using Application;
-using Domain.MessageBus.Address;
-using Domain.MessageBus.Configuration;
-using Domain.MessageBus.Options;
-using Infrastructure.Data.MessageBus.RabbitMQ;
-using Microsoft.Extensions.Options;
+﻿using Infrastructure.EFCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace WorkerService.Extensions
 {
     public static class PersistenceExtension
     {
-        public static IServiceCollection AddPersistence(this IServiceCollection services, Microsoft.Extensions.Configuration.IConfiguration configuration)
-        {            
-            services.AddConfiguration(configuration);
-            //services.AddSingleton<IQueue, RedisQueue>();
-            services.AddSingleton<IQueue, RabbitMQQueue>();
-            return services;
-        }
-        public static IServiceCollection AddConfiguration(this IServiceCollection services, Microsoft.Extensions.Configuration.IConfiguration configuration)
+        public static IServiceCollection AddEFCore(this IServiceCollection services, IConfiguration configuration)
         {
-            services.Configure<MessageBusOptions>(configuration.GetSection("MessageBusConfiguration"));
-            services.AddSingleton<Domain.MessageBus.Configuration.IConfiguration>(provider =>
+            services.AddTransient<StudentDbContext>();
+            services.AddDbContextFactory<StudentDbContext>(options =>
             {
-                var config = provider.GetRequiredService<IOptions<MessageBusOptions>>().Value;
-                var address = new Address(config.IP, config.Port.ToString(), config.UserName, config.Password);
-                return new Configuration(address, config.QueueName);
+                options.UseNpgsql(configuration.GetConnectionString("PostgreDb"),
+                        b => b.MigrationsAssembly("WorkerService"))
+                    .EnableSensitiveDataLogging()
+                    .LogTo(Console.WriteLine, LogLevel.Information)
+                    .EnableSensitiveDataLogging()
+                    .EnableDetailedErrors();
             });
 
             return services;
         }
- 
+        //public static IServiceCollection AddConfiguration(this IServiceCollection services, Microsoft.Extensions.Configuration.IConfiguration configuration)
+        //{
+        //    services.Configure<MessageBusOptions>(configuration.GetSection("MessageBusConfiguration"));
+        //    services.AddSingleton<Domain.MessageBus.Configuration.IConfiguration>(provider =>
+        //    {
+        //        var config = provider.GetRequiredService<IOptions<MessageBusOptions>>().Value;
+        //        var address = new Address(config.IP, config.Port.ToString(), config.UserName, config.Password);
+        //        return new Configuration(address, config.QueueName);
+        //    });
+
+        //    return services;
+        //}
+
         //public static IServiceCollection AddRedisConfiguration(this IServiceCollection services)
         //{
         //    services.AddSingleton<Domain.MessageBus.Configuration.IConfiguration>(provider =>
