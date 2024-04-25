@@ -1,6 +1,6 @@
-﻿using WorkerService.MiddleWares;
-using MediatR;
+﻿using MediatR;
 using System.Reflection;
+using WorkerService.Core.Application.MiddleWares;
 
 namespace WorkerService.Extensions
 {

@@ -11,7 +11,7 @@ namespace WorkerService
 
             // Configuration Ãß°¡
             var configuration = new ConfigurationManager()
-            .AddJsonFile("messageBusSettings.json", false, true)
+            .AddJsonFile("settings.json", false, true)
             .AddEnvironmentVariables()
             .Build();
 
@@ -19,8 +19,9 @@ namespace WorkerService
             builder.Services.AddMapper();
             builder.Services.AddMediatR();
             builder.Services.AddWorkerService();
+            builder.Services.AddRepositories();
             builder.Services.AddOptionExtension(configuration);
-            builder.Services.AddMessageBus(configuration);
+            builder.Services.AddMessageBus(configuration);            
             builder.Services.AddEFCore(configuration);
 
             var app = builder.Build();

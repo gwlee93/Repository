@@ -23,7 +23,7 @@ namespace WorkerService.Extensions
             services.AddTransient<IOptional<T>>(provider =>
             {
                 var options = provider.GetService<IOptionsMonitor<T>>()!;
-                return new Optional<T>(options, configuration, section.Key, "messageBusSettings.json");
+                return new Optional<T>(options, configuration, section.Key, "settings.json");
             });
 
             return services;

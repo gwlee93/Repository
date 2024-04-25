@@ -14,10 +14,10 @@ namespace GrpcClient
             {
                 Student = new DtoStudent
                 {
-                    StudentId = "1",
-                    Age = 12,
-                    Course = "Math",
-                    Name = "이건우"
+                    StudentId = "4",
+                    Age = 26,
+                    Course = "PHP",
+                    Name = "이수현"
                 }
             });
 
