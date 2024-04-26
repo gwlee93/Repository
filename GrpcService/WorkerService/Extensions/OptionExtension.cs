@@ -10,7 +10,15 @@ namespace WorkerService.Extensions
     {
         public static IServiceCollection AddOptionExtension(this IServiceCollection services, IConfigurationRoot configuration)
         {
+            services.AddJsonFile(configuration);
             services.AddOption<MessageBusOptions>(configuration);
+            return services;
+        }
+        private static IServiceCollection AddJsonFile(this IServiceCollection services, IConfigurationRoot configuration)
+        {
+            (configuration as ConfigurationManager).AddJsonFile("settings.json", false, true)
+                                                   .AddEnvironmentVariables();                                                   
+
             return services;
         }
 

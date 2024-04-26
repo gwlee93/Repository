@@ -8,12 +8,7 @@ namespace WorkerService
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // Configuration Ãß°¡
-            var configuration = new ConfigurationManager()
-            .AddJsonFile("settings.json", false, true)
-            .AddEnvironmentVariables()
-            .Build();
+            var configuration = builder.Configuration;           
 
             builder.Services.AddGrpc();
             builder.Services.AddMapper();
